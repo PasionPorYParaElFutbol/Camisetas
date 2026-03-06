@@ -2,8 +2,6 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-
-<!-- IMPORTANTE PARA MOVIL -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Camisetas de Futbol</title>
@@ -15,10 +13,9 @@ margin:0;
 font-family:Arial;
 
 background-image:url("img.png");
-background-size:contain;
-background-position:center;
+background-size:120%; /* un poco más grande para que se mueva */
+background-position:center top;
 background-repeat:no-repeat;
-background-attachment:fixed; /* EFECTO SCROLL */
 background-color:black;
 
 min-height:200vh;
@@ -78,9 +75,11 @@ width:95%;
 width:40px;
 }
 
+/* fondo más grande para efecto movimiento */
 
 body{
-background-attachment:scroll;
+background-size:180%;
+background-position:center top;
 }
 
 }
@@ -97,7 +96,7 @@ background-attachment:scroll;
 <div class="item">
 <a href="https://baocheng3f888.x.yupoo.com/albums?tab=gallery">
 <img src="PlayerVersion.png">
-PLAYER VERSION x2
+PLAYER VERSION x3
 </a>
 <div class="precio">Precio: 30€</div>
 </div>
@@ -148,5 +147,6 @@ ROPA NIÑO
 </body>
 
 </html>
+
 
 
